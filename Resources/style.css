@@ -1,0 +1,263 @@
+html {
+
+    background-color: rgb(213, 252, 255);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+@media only screen and (min-width:400px) {
+    html {
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+}
+header {
+    display: inline-flexbox;
+    width:100%;
+    height: 6rem;
+}
+@media only screen and ( min-width: 400px) {
+    h1, h2 {
+        margin-left: 5rem;
+    }
+}
+@media only screen and ( max-width: 1200px) {
+    header {
+        width: auto;
+    }
+    .club_name {
+        width: auto;
+    }
+    .container {
+        display: flexbox;
+        flex-wrap: wrap;
+        }
+}
+@media only screen and (max-width: 701px) {
+ html {
+     display: flexbox;
+     flex-wrap: wrap;
+     font-size: 16px;
+     width: 100%;
+     margin: auto;
+     height: 100%;
+     justify-content: center;
+ }
+ .top {
+     padding:.5rem;
+     
+ }
+ nav {
+     height: auto;
+ }
+ h1 {
+     font-size: 2rem;
+     overflow-wrap: break-word;
+ }
+ h2 {
+     font-size: 1.2rem;
+ }
+    header {
+     width: auto;
+ }
+ .container {
+    display: flexbox;
+    flex-wrap: wrap;
+    }
+
+}
+ nav {
+     display:flex;
+     background-color: white;
+     justify-content: center;
+     width: auto;
+     min-height: 6rem;
+     margin-top: 5rem;
+     float: none;
+     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
+     z-index: 3;
+ }
+ ul {
+     list-style: none;
+ }
+
+ .top {
+     display:inline;
+     font-size: 2rem;
+     padding:5rem;
+ }
+
+ .top a {
+     color:rgb(235, 47, 47);
+     text-decoration: none;
+ }
+ .top a:hover {
+     cursor: pointer;
+     color: rgb(24, 20, 17);
+     border-top: 3px solid rgb(24, 20, 17);
+     border-bottom: 3px solid rgb(24, 20, 17);
+ }
+ .club_name {
+     width: auto;
+     height: 25rem;
+     background-image:url('./images/img-bedford-bizarre.webp');
+     
+ }
+ h1 {
+     display: flex;
+     color: rgb(235, 47, 47);
+     font-size: 5rem;
+     justify-content: center;
+ }
+ span {
+     color:rgb(24, 20, 17);
+     margin: 30px;
+ }
+ h1:hover {
+    color:rgb(24, 20, 17);
+    font-size: 6rem;
+    transition-duration: 700ms;
+ }
+ span:hover {
+    color:rgb(235, 47, 47);
+    font-size: 6rem;
+    transition-duration: 700ms;
+    padding: auto;
+ }
+ h2 {
+     display: flex;
+     font-size: 2.8rem;
+     justify-content: center;
+     margin-top: 9rem;
+     color:rgb(235, 47, 47);
+ }
+ h2:hover {
+     color:black;
+     font-size: 4rem;
+    transition-duration: 700ms;
+ }
+
+ .container {
+     display:inline-flex;
+     width: auto;
+     height: 50%;
+     margin-top: 12rem;
+    
+ }
+    
+ h3 {
+     color:rgb(235, 47, 47);
+     font-size: 1.8rem;
+     justify-content: center;
+ }
+ h3:hover {
+     color:rgb(24, 20, 17);
+     font-size: 2.5rem;
+     transition-duration:500ms;
+ }
+ .events {
+     width:15rem;
+     margin: 5px 20px 20px 100px;
+
+ }
+ .tasks {
+     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
+     z-index: 3;
+     list-style:circle;
+     background-color: white;
+ }
+ .title {
+     text-align: center;
+ }
+ .images {
+     display:flex;
+     justify-content: space-around;
+ }
+ .pics {
+     height: 20rem;
+     width: 10rem;
+     padding: 4px;
+     overflow: hidden;
+     border-radius: 15px;
+ }
+ .pics:hover {
+     height: 30rem;
+     width: 55rem;
+     transition-duration: 600ms;
+     overflow: hidden;
+     border-radius: 15px;
+ }
+ h4 {
+     font-size: .8rem;
+     margin-top: 5px;
+     padding: 10px;
+ }
+ .plans {
+     justify-content: center;
+     font-size: 1.4rem;
+
+ }
+ .gallery {
+     width:60%;
+     margin: 5px 20px 20px 20px;
+     box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.5);
+     z-index: 3;
+     border-radius: 30px;
+     background-color: white;
+ }
+ .activities {
+     width:15rem;
+     margin: 5px 20px 20px 20px;
+
+ }
+ .act {
+    justify-content: center;
+    font-size: 1.4rem;
+    color:rgb(24, 20, 17);
+    line-height: 5rem;
+    text-decoration: none;
+ }
+ .act:hover {
+     border-top: 2px solid rgb(24, 20, 17);
+     border-bottom: 2px solid rgb(24, 20, 17);
+ }
+ .join {
+     display: flex;
+     height: 15rem;
+     width: auto;
+     justify-content: center;
+     margin-top: 8rem;
+ }
+ .us {
+     width: 15rem;
+     height: 8rem;
+    color:white;
+    text-align: center;
+    padding-top: 2.2rem;
+     font-size: 2.5rem;
+     background-color:rgb(235, 47, 47) ;
+    border-radius: 20px;
+    }
+ .us:hover {
+     cursor: pointer;
+     color:black;
+     background-color:white;
+     font-size: 4rem;
+     transition-duration:300ms;
+     border-top: 8px solid rgb(24, 20, 17);
+     border-bottom: 8px solid rgb(24, 20, 17);
+ }
+ 
+ .footer {
+    display: inline;
+    padding-left: 6rem;
+    
+ }
+ .bottom {
+    font-size: 1.5rem;
+    color:rgb(235, 47, 47);
+    text-decoration: none;
+ }
